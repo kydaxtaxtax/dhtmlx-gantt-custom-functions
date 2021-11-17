@@ -1,0 +1,583 @@
+
+.gantt_tree_icon .gantt_folder_open /*   удаление лишних иконок   */
+{
+  display: none!important;
+}
+.gantt_tree_icon .gantt_folder_closed {
+    display: none!important;
+}
+.gantt_folder_closed {
+    display: none!important;
+}
+.gantt_folder_open {
+    display: none!important;
+}
+.gantt_tree_icon.gantt_file /*   удаление лишних иконок   */
+{
+  display: none!important;
+}
+
+.gantt_task_progress_drag /*   удаление управлением прогресса   */
+{
+  display: none!important;
+}
+
+
+/*  Удаление банера просрочки бесплатной версии  */
+.gantt-error
+{
+  display: none!important;
+}
+.dhtmlx-error
+{
+  display: none!important;
+}
+
+
+
+html, body
+{
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+
+
+.baseline
+{
+  position: absolute;
+  border-radius: 2px;
+  opacity: 0.6;
+  margin-top: -7px;
+  height: 12px;
+  background: #ffd180;
+  border: 1px solid rgb(255, 153, 0);
+}
+
+
+
+
+
+
+.gantt_task_line, .gantt_line_wrapper /* переместить строки задач вверх????? */
+{
+  margin-top: -9px;
+}
+
+.gantt_task_link .gantt_link_arrow /* Положение стрелки относительно задачи*/
+{
+  margin-top: -3px
+}
+
+
+
+
+
+
+.gantt-myCssG div /* стиль для модальных окон зеленый*/
+{
+    font-family: Akrobat-SemiBold;
+    color: #4d4d4d;
+}
+
+.gantt-myCssR div /* стиль для модальных окон красный*/
+{
+    font-family: Akrobat-SemiBold;
+    color: #4d4d4d;
+}
+
+.gantt-myCssG div p /* стиль для модальных окон зеленый*/
+{
+    font-family: Akrobat-SemiBold;
+    color: #09ad35;
+}
+
+.gantt-myCssR div p /* стиль для модальных окон зеленый красный*/
+{
+    font-family: Akrobat-SemiBold;
+    color: red;
+}
+
+
+
+
+.mpp-sample
+{
+  background: url("common/ms-project.png");
+  width: 32px;
+  height: 32px;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+  line-height: 32px;
+  display: inline-block;
+}
+
+#mspFile
+{
+  border: none;
+  background: #ededed;
+}
+
+.gantt_task_line, .gantt_line_wrapper /* Отступ блока по факту */
+{
+    margin-top: 0px;
+}
+
+.line_break /* для переноса */
+{
+  margin-top: -0.9em!important;
+  margin-left: 0!important;
+  margin-right: 0!important;
+  margin-bottom: -2em!important;
+
+/*padding: -10px!important;*/
+word-break:break-all!important;
+}
+
+
+.line_break1 /* для переноса */
+{
+  margin-top: -2.2em!important;
+  margin-left: 0em!important;
+  margin-right: 0!important;
+  margin-bottom: 0!important;
+
+/*padding: -10px!important;*/
+word-break:break-all!important;
+}
+
+
+
+
+.text-button-diagram-gant /* кнопка для ввода тескта */
+{
+    color: #6e6e6e;
+    background: #242526;
+    background-color: white;
+    box-shadow: 1px 3px 10px 0 rgba(0,0,0,.5);
+
+    min-width: 35px;
+    min-height: 35px;
+
+    border: 1px solid rgba(34,34,34,0); /* ширина границы 1px, обычная одинарная граница, ее цвет*/
+    border-radius: 6px;
+
+    padding: .375rem .75rem;
+    margin: .375rem .125rem;
+
+    font-family: Akrobat-SemiBold;
+
+    font-size: 11pt;
+    text-align: center;
+}
+
+.setting-button-diagram-gant /* остальные кнопки */
+{
+    color: #f4f4f4;
+    background: #242526;
+    background-color: rgba(34,34,34,.94);
+    box-shadow: 1px 3px 10px 0 rgba(0,0,0,.5);
+
+    cursor: pointer; /* изменение курсора при наведении */
+
+    min-width: 35px;
+    min-height: 35px;
+
+    border: 1px solid rgba(34,34,34,0); /* ширина границы 1px, обычная одинарная граница, ее цвет*/
+    border-radius: 6px;
+
+    padding: .375rem .75rem;
+    margin: .375rem .125rem;
+
+    font-family: Akrobat-Light;
+
+    font-size: 11pt;
+    text-align: center;
+}
+
+.setting-button-diagram-gant:hover
+{
+    background: #2da53b;
+}
+
+.fileUpload /* блок в котором находится кнопка выбора и название выбранного фала */
+{
+background: #fff;
+box-shadow: 1px 3px 10px 0 rgba(0,0,0,.5);
+border: 1px solid rgba(34,34,34,0); /* ширина границы 1px, обычная одинарная граница, ее цвет*/
+display: block;
+margin: .375rem .125rem;
+-o-border-radius: 6px;
+-moz-border-radius: 6px;
+-webkit-border-radius: 6px;
+border-radius: 6px;
+width: 250px;
+font-family: Akrobat-Light;
+font-size: 11pt;
+}
+
+.fileUpload .fileBtn /* кнопка выбора файла */
+{
+color: #f4f4f4;
+background-color: rgba(34,34,34,.94);
+cursor: pointer;
+float: left;
+padding: .375rem .75rem;
+text-align: center;
+width: 33%;
+
+-o-border-radius: 6px 0 0 6px;
+-moz-border-radius: 6px 0 0 6px;
+-webkit-border-radius: 6px 0 0 6px;
+border-radius: 6px 0 0 6px;
+}
+
+.fileUpload .fileName /* имя выбранного файла */
+{
+float: right;
+overflow: hidden;
+white-space: nowrap;
+width: 67%;
+text-align: center;
+color: #000;
+padding: .375rem .75rem;
+}
+
+.fileUpload .fileBtn:hover, .setting-button-diagram-gant:hover /* кнопка выбора файла при наведении */
+{
+background: #2da53b;
+-webkit-transition-property: background;
+-webkit-transition-duration: 0.2s;
+-webkit-transition-timing-function: ease-in;
+-moz-transition-property: background;
+-moz-transition-duration: 0.2s;
+-moz-transition-timing-function: ease-in;
+-o-transition-property: background;
+-o-transition-duration: 0.2s;
+-o-transition-timing-function: ease-in;
+-ms-transition-property: background;
+-ms-transition-duration: 0.2s;
+-ms-transition-timing-function: ease-in;
+transition-property: background;
+transition-duration: 0.2s;
+transition-timing-function: ease-in;
+}
+
+.fileUpload:after
+{
+clear: both;
+content: " ";
+display: block;
+height: 0;
+line-height: 0;
+visibility: hidden;
+}
+
+
+
+.grid /* Основной блок всех кнопок УРОВЕНЬ 1 */
+{
+  display: flex;
+  justify-content: center;
+}
+
+.grid_row /* Блок кнопок УРОВЕНЬ 2 без отступа справа (для последнегно элемента)*/
+{
+  display: flex;
+}
+
+.grid_row_m /* Блок кнопок УРОВЕНЬ 2 с отступом справа*/
+{
+  display: flex;
+  margin-right: 30px;
+}
+
+.grid_item /* отдельная кнопка УРОВЕНЬ 3 */
+{
+
+}
+
+
+
+.weekend /* окраска выходных */
+{
+  background: #cfcfcf!important;
+  color:white !important;
+}
+
+.none /* отмена окраски для zoom кроме дней */
+{
+  background: white!important;
+  color:#4d4d4d !important;
+}
+
+.task_row_class  /*класс CSS, который будет применён к строке области шкалы времени*/
+{
+  font-weight: none!important;
+  font-family: Akrobat-Light!important;
+}
+
+.folder_row /* Класс для папки таблицы */
+{
+  font-weight: none!important;
+  font-family: Akrobat-ExtraBold!important;
+  font-size: 12pt!important;
+}
+
+.gantt_row, .gantt_row_task/* Класс для строки таблицы */
+{
+  font-weight: none!important;
+  font-family: Akrobat-SemiBold!important;
+  font-size: 12pt!important;
+}
+
+.grid_header_class/*Класс для шапки таблицы*/
+{
+  font-weight: none!important;
+  font-family: Akrobat-Bold!important;
+  font-size: 11pt!important;
+}
+
+.scale_row_class  /*Класс для шапки шкалы времени */
+{
+  font-weight: none!important;
+  font-family: Akrobat-Bold!important;
+  font-size: 11pt!important;
+}
+
+
+
+.gantt_side_content /*Класс для Превышения задачи по времени*/
+{
+  font-family: Akrobat-Regular!important;
+  color: #4d4d4d;
+  font-size: 10pt!important;
+}
+
+.gantt_task_content /*Класс для отображения прогресса на задае*/
+{
+  font-family: Akrobat-SemiBold!important;
+  color: black;
+  font-size: 10.5pt!important;
+  text-align: center;
+}
+
+
+
+
+/* Стили для полноэкранного режима */
+#myCover{width: 100%; height:92%;}
+#toggleBtn {max-height: 30px;}
+#gantt_here {height: calc(100% - 52px);}
+
+
+
+.gantt_cal_light /* класс для всей формы редактирования */
+{
+  font-family: Akrobat-Bold!important;
+  width: 460px;
+  height: 530px!important;
+  font-weight: 300!important;
+  font-size: 16px;
+}
+
+.gantt_cal_larea /* класс для формы редоктирования кроме нижней и верхней шапки */
+{
+  height: 448px!important;
+}
+
+.gantt_cal_larea div
+{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+
+.gantt_btn_set
+{
+  font-family: Akrobat-Bold!important;
+  font-weight: normal;
+}
+.gantt_cal_lsection /* Стили для формы редоктирования */
+{
+  color: #727272;
+  font-family: Akrobat-Bold!important;
+  font-size: 16px;
+  font-weight: normal;
+  padding: 12px 0 0px 10px;
+}
+
+.gantt_cal_lsection label /* стили для заголовков */
+{
+  margin: 0;
+  font-size: 15px;
+}
+
+.gantt_cal_ltitle /* заголовок формы редоктирования */
+{
+  font-family: Akrobat-Regular!important;
+  font-weight: normal!important;
+  font-size: 15px;
+}
+
+.gantt_cal_ltext /* поле для ввода наименования задачи */
+{
+  font-family: Akrobat-Regular!important;
+  font-weight: normal!important;
+  font-size: 14px;
+}
+
+.gantt_section_time /* период по факту и по плану */
+{
+  height: 30px!important;
+}
+
+.gantt_cal_light select /* класс для селекта в окне редактирования задачи */
+{
+    font-family: Akrobat-Regular!important;
+    border: 1px solid #cecece;
+    font-size: 15px;
+    padding: 2px;
+    margin: 0;
+}
+
+.gantt_cal_ltext textarea /* поле ввода текста в форме редактирования */
+{
+  font-family: Akrobat-Regular!important;
+  font-size: 15px;
+}
+
+.gantt_cal_larea div:nth-of-type(8) /* textarea для ответственного */
+{
+  width: 80%!important;
+}
+
+.gantt_cal_larea div:nth-of-type(10) /* textarea объем план */
+{
+  width: 50%!important;
+}
+
+.gantt_cal_larea div:nth-of-type(12) /* textarea объем факт */
+{
+  width: 50%!important;
+}
+
+.gantt_cal_larea div:nth-of-type(14) /* textarea прогресс */
+{
+  width: 20%!important;
+}
+
+.gantt_cal_larea div:nth-of-type(1)
+{
+  font-size: 15px!important;
+}
+
+.gantt_cal_larea div:nth-of-type(3)
+{
+  font-size: 10px!important;
+}
+/*
+display: flex;
+justify-content: center;
+flex-direction: row;
+*/
+
+.atr /* звездочка */
+{
+  font-family: Akrobat-Regular!important;
+  color: red;
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+.not_active /* класс для задач с выполнением 100% */
+{
+    color: #BFBFBF;
+}
+
+.gantt_grid_scale, .gantt_grid_head_cell
+{
+  border-right: 1px solid #cecece!important;
+}
+
+
+
+
+
+/* стили для вывода ресурсного планирования */
+
+			.gantt_grid_scale .gantt_grid_head_cell,
+			.gantt_task .gantt_task_scale .gantt_scale_cell
+      {
+				font-weight: normal;
+				font-size: 14px;
+				color: #4d4d4d;
+			}
+
+			.folder_row {
+				font-weight: bold;
+			}
+
+			.highlighted_resource,
+			.highlighted_resource.odd
+      {
+				background-color: rgba(255, 251, 224, 0.6);
+			}
+
+			.gantt_task_cell.week_end {
+				background-color: #e8e8e87d;
+			}
+
+			.gantt_task_row.gantt_selected .gantt_task_cell.week_end
+      {
+				background-color: #e8e8e87d !important;
+			}
+
+
+			.group_row,
+			.group_row.odd,
+			.gantt_task_row.group_row
+      {
+				background-color: rgba(232, 232, 232, 0.6);
+			}
+
+			.owner-label
+      {
+				width: 20px;
+				height: 20px;
+				line-height: 20px;
+				font-size: 12px;
+				display: inline-block;
+				border: 1px solid #cccccc;
+				border-radius: 25px;
+				background: #e6e6e6;
+				color: #6f6f6f;
+				margin: 0 3px;
+				font-weight: bold;
+			}
+
+
+			.resource-select-panel .gantt_layout_content
+      {
+				line-height: 35px;
+				text-align: right;
+				padding-right: 15px;
+				overflow: hidden !important;
+			}
+			.resource-select
+      {
+				padding: 3px;
+				margin-left: 13px;
+			}
+
+			.column_overload .gantt_histogram_fill
+      {
+				background-color:#ffa9a9;
+			}
